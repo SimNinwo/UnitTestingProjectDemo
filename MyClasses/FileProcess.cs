@@ -12,7 +12,7 @@ namespace MyClasses
 
         public bool FileExists(string fileName)
         {
-            if(String.IsNullOrEmpty(fileName))
+            if (String.IsNullOrEmpty(fileName))
                 throw new ArgumentNullException("fileName");
 
             return File.Exists(fileName);
